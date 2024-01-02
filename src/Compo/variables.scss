@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;900&display=swap');
+
+@mixin default{
+    font-family: 'Kanit', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@mixin button-style{
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+
+@mixin hover-blue{
+    background-color:#ffb236;
+    transition: all 0.2s ease;
+}
+
+// =========== Color =============
+$my-white: white;
+$my-blue: #062c33;
+$my-gray: rgb(253, 253, 253);
+$my-pink: #FDF0EA;
+$my-yellow: #ffb236;
+
+
+
+// ============= Screens =================
+$small-One : 320px;
+$small-Two : 480px;
+$medium-One : 481px ;
+$medium-Two : 768px;
+$large-One : 1025px;
+$large-Two : 1200px;
+
+
+// ================ Fonts Size ================
+$big-fonts : 60px;
+$medium-fonts : 30px;
+
+
+a{
+    text-decoration: none;
+    color: $my-blue;
+}
