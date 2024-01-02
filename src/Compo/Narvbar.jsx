@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
 
           <div className='secondNavDiv'>
-              <Link to={'/'}><button className='signupBtn'>Book Session</button></Link>
+              <Link to={'/contact'}><button className='signupBtn'>Book Session</button></Link>
           </div>
 
         </div>

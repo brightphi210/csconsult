@@ -1,0 +1,201 @@
+@import './variables.scss';
+
+*{@include default}
+
+
+.contactSession{
+    padding: 100px 5%;
+    padding-bottom: 20px;
+}
+
+.contactCard{
+    background-color: $my-yellow;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    color: $my-white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.contactCard h2{
+    font-size: 35px;
+}
+
+
+.formDiv {
+    padding: 60px 25%;
+}
+
+.inputDiv label{
+    display: block;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+
+.inputDiv input{
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    font-size: 15px;
+}
+
+
+.myDropdown{
+    font-size: 13px;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.myDropdown option{
+    font-size: 15px;
+}
+
+
+.inputDiv textarea{
+    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+}
+
+.textLabel{
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+
+.formDiv button{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    background-color: $my-blue;
+    color: white;
+}
+
+
+
+.modal {
+    // display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.modal-content p{
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.modal-content h2{
+    color: green;
+}
+
+.modal-content button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px ;
+    background-color: $my-blue;
+    color: white;
+}
+
+.inputDiv p{
+    font-size: 12px;
+}
+
+
+
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.modal-content p{
+    padding: 20px 0;
+    font-size: 13px;
+}
+    
+    
+    .contactCard{
+        background-color: $my-yellow;
+        padding: 30px;
+        border-radius: 10px;
+    }
+   
+   
+    .contactCard h2{
+        font-size: 20px;
+    }
+
+    .contactCard p{
+        font-size: 12px;
+    }
+
+    
+    .formDiv {
+        padding: 30px 0;
+    }
+
+    .inputDiv label{
+        display: none;
+    }
+
+    .inputDiv input{
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .myDropdown{
+        border-radius: 5px;
+        padding: 13px;
+    }
+
+    .inputDiv textarea{
+        max-height: 130px;
+        min-height: 130px;
+    }
+}
