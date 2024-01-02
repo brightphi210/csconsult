@@ -73,7 +73,7 @@ const HomeSec = () => {
   return (
     <div>
         <div className='headerSec'>
-            <div className='headerText'>
+            <div className='headerText' data-aos="fade-up" data-aos-duration="3000">
                 <h2>
                     Take your company to new 
                     levels of success and productivity.
@@ -84,7 +84,7 @@ const HomeSec = () => {
         </div>
 
 
-        <div className='soluSec'>
+        <div className='soluSec' data-aos="fade-up" data-aos-duration="3000" >
             <h2 className='our'>Our Solutions</h2>
             <div className='solutionDiv'>
                 <div>
@@ -144,7 +144,7 @@ const HomeSec = () => {
         </div>
 
 
-        <div className='experineceDiv'>
+        <div className='experineceDiv' data-aos="fade-up" data-aos-duration="3000">
             <h2>Portfolio:</h2>
             <div className='experience'>
                 <div>
