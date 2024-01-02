@@ -9,16 +9,20 @@
     z-index: 0;
 }
 .navDivMain{
-    background-color: $my-white;
+    background-color: $my-blue;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     width: 100%;
     position: fixed;
     z-index: 100;
+    background: transparent;
 }
 
 .maimLogo h2{
-    color: $my-blue;
+    color: white;
+}
 
+.logoSelf h2{
+    color: white;
 }
 
 
@@ -53,7 +57,7 @@
 
 .navUl p{
     cursor: pointer;
-    color: black;
+    color: white;
 }
 
 
@@ -90,9 +94,9 @@
 }
 
 .signupBtn{
-    background-color: $my-blue;
+    background-color: $my-white;
     border:none;
-    color: $my-white;
+    color: $my-blue;
     cursor: pointer;
 }
 
@@ -129,7 +133,7 @@
     // =========== Nav UL =============
 
     .navDiv{
-        background-color:$my-gray;
+        background-color:$my-blue;
         display: block;
         position: fixed;
         width: 100%;
@@ -160,6 +164,7 @@
     .navIcons{
         margin-left: auto;
         font-size: 20px;
+        color: white;
     }
 
 

@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className='navDivMain '> 
 
           <div className='maimLogo'>
-            <Link to={'/'}><div className=''>CSConsult</div></Link>
+            <Link to={'/'}><div className=''><h2>CSConsult</h2></div></Link>
 
             <div className='navIcons'>
               {openNavbar ? <CgMenuLeft onClick={toggleNav}/> : <MdClose onClick={toggleNav}/>}
@@ -28,12 +28,10 @@ const Navbar = () => {
 
           <div className={`navDiv ${openNavbar ? 'open' : ''}`}>
             <div className='firstNavDiv'>
-            <Link to={'/'}><div className='logoSelf'>CSConsult</div></Link>
+            <Link to={'/'}><div className='logoSelf'><h2>CSConsult</h2></div></Link>
 
               <div className='navUl'>
                 <Link to={'/'}><p>Home</p></Link> 
-                <Link to={'/'}><p>Course</p></Link>
-                <Link to={'/'}><p>Portfolio</p></Link>
               </div>
           </div>
 
