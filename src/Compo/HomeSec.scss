@@ -118,6 +118,7 @@
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     padding: 20px 30px;
+    border-radius: 6px;
 }
 
 .solutionDiv p{
@@ -171,4 +172,51 @@
         font-size: 12px;
     }
     
+}
+
+.experineceDiv {
+    background-color: $my-blue;
+    padding: 30px 10%;
+}
+
+
+
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.experineceDiv h2{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.experience div{
+    background-color: white;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    
+    .experineceDiv h2{
+        color: white;
+        padding-bottom: 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .experience{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    } 
+
+    .experience div{
+        background-color: white;
+        padding: 30px;
+        font-size: 18px;
+    }
 }

@@ -84,6 +84,41 @@ const HomeSec = () => {
                 </div>
             </div>
         </div>
+
+
+        <div className='experineceDiv'>
+            <h2>Portfolio:</h2>
+            <div className='experience'>
+                <div>
+                    8 Years+ Experience in Business Development
+                </div>
+
+                <div>
+                    5 Years+ Experience in Accounting and Finance 
+                </div>
+
+                <div>
+                    3 Years+ Experience in Start-Up incubation 
+                </div>
+
+                <div>
+                    6 Years+ Experience in Marketing and Sales 
+                </div>
+
+                <div>
+                    Over 100 Small Businesses and Startups imparted in the last decade
+                </div>
+
+                <div>
+                    Over 11 StartUps upscaled and profitable in the last 3 years
+                </div>
+
+                <div>
+                    Over 500 Entrepreneurs imparted in the last Decade
+                </div>
+
+            </div>
+        </div>
     </div>
   )
 }
