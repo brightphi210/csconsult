@@ -133,6 +133,12 @@
     font-weight: 400;
 }
 
+.soluSec .our{
+    font-size: 18px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
 
 @media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
     .soluSec{
@@ -142,7 +148,7 @@
     .solutionDiv{
         display: grid;
         grid-template-columns: 1fr 1fr ;
-        gap: 10px;
+        gap: 20px;
     }
 
     .solutionDiv div{

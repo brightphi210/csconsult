@@ -27,7 +27,7 @@ const HomeSec = () => {
 
 
         <div className='soluSec'>
-            <h2>Our Solutions</h2>
+            <h2 className='our'>Our Solutions</h2>
             <div className='solutionDiv'>
                 <div>
                     <p><SiMoneygram /></p>
@@ -49,7 +49,7 @@ const HomeSec = () => {
                     <p><PiStrategyBold /></p>
                     <h2>Marketing Strategies</h2>
                 </div>
-                
+
 
                 <div className=''>
                     <p><MdOutlineSendTimeExtension /></p>
