@@ -1,6 +1,6 @@
 import React from 'react'
 import './HomeSec.scss'
-// import { BiSolidPaperPlane } from "react-icons/bi";
+import { Link } from 'react-router-dom';
 import { SiMoneygram } from "react-icons/si";
 import { GiReceiveMoney } from "react-icons/gi";
 import { FaArrowUpRightDots } from "react-icons/fa6";
@@ -21,7 +21,7 @@ const HomeSec = () => {
                     levels of success and productivity.
                 </h2>
                 <p>Get help from CSConsult, a professional  business plartform <br /> with advanced experience on growth and business scaling.</p>
-                <button>Book Session</button>
+                <Link to={'/contact'}><button>Book Session</button></Link>
             </div>
         </div>
 
