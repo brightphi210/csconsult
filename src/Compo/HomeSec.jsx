@@ -1,5 +1,15 @@
 import React from 'react'
 import './HomeSec.scss'
+// import { BiSolidPaperPlane } from "react-icons/bi";
+import { SiMoneygram } from "react-icons/si";
+import { GiReceiveMoney } from "react-icons/gi";
+import { FaArrowUpRightDots } from "react-icons/fa6";
+import { PiStrategyBold } from "react-icons/pi";
+import { HiDocumentText } from "react-icons/hi";
+import { GiIncubator } from "react-icons/gi";
+import { MdOutlineDeveloperMode } from "react-icons/md";
+import { GoCodescanCheckmark } from "react-icons/go";
+import { MdOutlineSendTimeExtension } from "react-icons/md";
 
 const HomeSec = () => {
   return (
@@ -12,6 +22,66 @@ const HomeSec = () => {
                 </h2>
                 <p>Get help from CSConsult, a professional  business plartform <br /> with advanced experience on growth and business scaling.</p>
                 <button>Book Session</button>
+            </div>
+        </div>
+
+
+        <div className='soluSec'>
+            <h2>Our Solutions</h2>
+            <div className='solutionDiv'>
+                <div>
+                    <p><SiMoneygram /></p>
+                    <h2>Strategic Planning</h2>
+                </div>
+
+                <div className='blue'>
+                    <p><GiReceiveMoney /></p>
+                    <h2>Finance</h2>
+                </div>
+
+                <div>
+                    <p><FaArrowUpRightDots /></p>
+                    <h2>Business Development</h2>
+                </div>
+
+
+                <div className='blue'>
+                    <p><PiStrategyBold /></p>
+                    <h2>Marketing Strategies</h2>
+                </div>
+                
+
+                <div className=''>
+                    <p><MdOutlineSendTimeExtension /></p>
+                    <h2>Agile Sales Execution</h2>
+                </div>
+            
+
+                <div className='blue'>
+                    <p><GiIncubator /></p>
+                    <h2>Startup Incubation</h2>
+                </div>
+
+
+                <div>
+                    <p><MdOutlineDeveloperMode /></p>
+                    <h2>Product Development</h2>
+                </div>
+
+                <div className='blue'>
+                    <p><GoCodescanCheckmark /></p>
+                    <h2>Market Research</h2>
+                </div>
+            
+
+
+
+                <div>
+                    <p><HiDocumentText /></p>
+                    <h2>Business Documentation: </h2>
+                    <span>Pitch Decks, 
+                        Business Plans, Proposals and more</span>
+                </div>
             </div>
         </div>
     </div>

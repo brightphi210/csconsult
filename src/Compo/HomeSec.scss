@@ -64,12 +64,14 @@
 @media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
 
     .headerSec{
-        height: 80vh;
+        height: 70vh;
+        width: 100vw;
     }
     .headerText{
         isolation: isolate;
         width: 100%;
         color: white;
+        margin-top: 70px;
     }
 
 
@@ -97,4 +99,70 @@
         cursor: pointer;
         font-size: 13px;
     }
+}
+
+
+
+.soluSec{
+    padding: 30px 10%;
+}
+
+.solutionDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+
+.solutionDiv div{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 20px 30px;
+}
+
+.solutionDiv p{
+    font-size: 30px;
+    color: #f8a114;
+}
+
+.blue p{
+    color: rgb(5, 64, 5);
+}
+
+.solutionDiv h2{
+    font-weight: 400;
+}
+
+
+@media only screen and (min-width: $small-One) and (max-width: $medium-Two) {
+    .soluSec{
+        padding: 30px 5%;
+    }
+    
+    .solutionDiv{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 10px;
+    }
+
+    .solutionDiv div{
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .solutionDiv h2{
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .solutionDiv p{
+        font-size: 20px;
+    }
+
+    .solutionDiv span{
+        font-size: 12px;
+    }
+    
 }
