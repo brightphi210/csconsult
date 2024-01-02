@@ -1,0 +1,67 @@
+@import './variables.scss';
+
+*{@include default}
+
+
+// ========================= footer ==============================
+
+.footerSection{
+    display: flex;
+    padding: 40px 8%;
+    background-color: rgb(245, 245, 245);
+    align-items: center;
+}
+
+.footerIconDiv{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footerIcon{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.footerRight{
+    margin-left: auto;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.mailFlex{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+@media only screen and (min-width: $small-One) and (max-width: $small-Two) {
+    .footerSection{
+        display: block;
+        padding: 40px 8%;
+    }
+
+    .footerRight{
+        display: block;
+        align-items: center;
+    }
+
+    .footerIconDiv{
+        margin: 20px 0;
+    }
+
+    .footerIcon{
+        font-size: 15px;
+        color: rgb(130, 130, 130);
+    }
+
+    .help{
+        color: gray;
+    }
+
+    .footerSection p{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
