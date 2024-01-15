@@ -8,13 +8,15 @@ import { IoMdMail } from "react-icons/io";
 import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 
+import logo from './CS CONSULT.png'
+
 const Footer = () => {
   return (
     <div className='footerSection'>
 
         <div className='footerLogo'>
-            <h3>CSTECH</h3>
-            <p>Home of the Best Talent all <br /> Over Africa</p>
+        <Link to={'/'}><div className=''><img src={logo}alt=""  width={120}/></div></Link>
+
         </div>
 
         <div className='footerRight'>
