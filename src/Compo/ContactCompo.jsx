@@ -50,7 +50,7 @@ const ContactCom = () => {
     e.preventDefault();
     
 
-    emailjs.sendForm('service_84n2o4x', 'template_bi2lptt', form.current, 'SePfbvFDjlAZc65wg')
+    emailjs.sendForm('service_fcx25ar', 'template_9hxjn72', form.current, '_cRdEyncL9jNe_k6a')
       .then((result) => {
           console.log(result.text);
           console.log('Email Successfully sent')
